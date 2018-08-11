@@ -4,27 +4,14 @@ html{
 }
 
 .drawing-board{
-  
-    margin-top: 10px;
-    padding: 10px;
-    width: 980px;
 
-    position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-    
-    margin: auto;
 }
 
 .row{
     clear:both;   
     float:left;
     height: 78px;
-    background-color:#0F0933;
+    
     margin-bottom: -1px;
     padding:1px;
     border:0 2px 0 2px solid #0F0933;
