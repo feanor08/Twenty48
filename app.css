@@ -1,0 +1,79 @@
+html{
+    font-family: 'Patua One', cursive;
+    font-size: 124%;
+    padding-left:25%;
+}
+
+#container{
+    margin-top:10%;
+}
+
+.row{
+    clear:both;   
+    float:left;
+    height: 78px;    
+    margin-bottom: -1px;
+    padding:1px; 
+    
+}
+
+
+.grid-square{
+    width:72px;
+    height:72px;
+    background-color:#252144 ;
+    float:left; 
+    margin:2px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;  
+    border-radius: 10%; 
+    color:white;
+}
+
+.class0{
+    background-color: #252144;
+}
+
+.class2{
+    background-color: #8180D7;
+}
+
+.class4{
+    background-color: #A25AD6;
+}
+
+.class8{
+    background-color: #2669DD;
+}
+
+.class16{
+    background-color: #21B9D5;
+}
+
+.class32{
+    background-color: #00CA9B;
+}
+
+.class64{
+    background-color: #43CF17;
+}
+
+.class128{
+    background-color: #F7C001;
+}
+
+.class256{
+    background-color: #F58114;
+}
+
+.class512{
+    background-color: #FF543D;
+}
+
+.class1024{
+    background-color: #FF1491;
+}
+.class2048{
+    background-color: #FF143B;
+}
