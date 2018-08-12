@@ -15,7 +15,7 @@ function nameGrids(n){
             cell.className="grid-square";
             row.appendChild(cell);
             cell.setAttribute("id","cell"+((i*n)+j));
-            }
+        }
         bod.appendChild(row);
     }
 }
@@ -122,7 +122,6 @@ function addRandomTwo(theMatrix){
     var count=[];
     var cell;
     var tile;
-    
     //stores the cell which dont have a current innerText
     for(var i=1;i<=(nCrossn*nCrossn);i++){
         cell=document.getElementById("cell"+i);
@@ -130,9 +129,7 @@ function addRandomTwo(theMatrix){
             count.push(i);            
         }
     }
-     
     tile=Math.ceil(Math.random()*count.length);
-    
     if(count.length>0){
     cell=document.getElementById("cell"+count[tile-1]);
     //10% chance of className "4" coming 
